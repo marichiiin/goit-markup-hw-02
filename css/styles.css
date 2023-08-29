@@ -16,13 +16,26 @@ body {
     margin: 0;
     padding: 0;
     color: var(--navyblue);
+    font-family: var(--font-general);
+    font-style: normal;
+    
+}
+h1 {
+    font-family: var(--font-general);
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 1.12px;
 }
 
+li {
+    list-style: none;
+}
+h1, h2 {
+    text-align: center;
+}
 .hero-section {
     background-color: var(--navyblue);
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
     color: var(--white);
 }
 
