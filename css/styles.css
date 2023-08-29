@@ -1,11 +1,58 @@
 :root {
-    --color-navy-blue: #2E2F42;
+    /*Colors*/
+    --navyblue: #2E2F42;
+    --white: #fff;
+    --iris: #4D5AE5;
+    --slate: #434455;             
+    --cloud: #F4F4FD;
+    --ocean: #404BBF;
+    --cornflower: #E7E9FC; 
+
+    /*Fonts*/
+    --font-logo: Raleway;
+    --font-general: Roboto;
 }
-* {
+body {
     margin: 0;
     padding: 0;
+    color: var(--navyblue);
 }
 
 .hero-section {
-    background-color: var(--color-navy-blue);
+    background-color: var(--navyblue);
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+    color: var(--white);
+}
+
+.hero-section button {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    border: 0;
+    color: var(--white);
+    background: var(--iris, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.64px;
+}
+
+img {
+    width: 360px;
+    height: 388px;
+}
+
+.footer-section {
+    background-color: var(--navyblue);
+}
+.footer-section p {
+    color: var(--cloud);
 }
