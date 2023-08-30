@@ -1,3 +1,4 @@
+
 :root {
     /*Colors*/
     --navyblue: #2E2F42;
@@ -9,23 +10,24 @@
     --cornflower: #E7E9FC; 
 
     /*Fonts*/
-    --font-logo: Raleway;
-    --font-general: Roboto;
+    --font-logo: 'Raleway';
+    --font-general: 'Roboto';
 }
+
+/*Global*/
 body {
     margin: 0;
     padding: 0;
     color: var(--navyblue);
-    font-family: var(--font-general);
-    font-style: normal;
+    font-family: var(--font-general), sans-serif;
     
 }
 h1 {
     font-family: var(--font-general);
-        font-size: 56px;
-        font-style: normal;
-        font-weight: 700;
-        letter-spacing: 1.12px;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.12px;
 }
 
 li {
@@ -33,6 +35,27 @@ li {
 }
 h1, h2 {
     text-align: center;
+}
+
+a {
+    text-decoration: unset;
+    color: inherit;
+}
+
+
+/*Studio Page*/
+a.logo {
+    font-family: var(--font-logo), sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+a.logo:first-child {
+    color: var(--iris);
+}
+
+a.logo:last-child {
+    color: var(--navyblue);
 }
 .hero-section {
     background-color: var(--navyblue);
