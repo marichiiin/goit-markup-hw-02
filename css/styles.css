@@ -19,7 +19,7 @@ body {
     margin: 0;
     padding: 0;
     color: var(--navyblue);
-    font-family: var(--font-general), sans-serif;
+    font-family: var(--font-general);
     
 }
 h1 {
@@ -43,19 +43,41 @@ a {
 }
 
 
-/*Studio Page*/
+/*----------Studio Page----------*/
 a.logo {
-    font-family: var(--font-logo), sans-serif;
+    font-family: var(--font-logo);
     font-size: 18px;
     font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.54px;
+    line-height: 21px;
 }
 
 a.logo:first-child {
     color: var(--iris);
 }
 
-a.logo:last-child {
+nav a.logo span:nth-child(2) {
     color: var(--navyblue);
+}
+
+nav ul {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+nav .active {
+    color: var(--iris);
+}
+
+address {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    font-style: normal;
 }
 .hero-section {
     background-color: var(--navyblue);
@@ -64,7 +86,6 @@ a.logo:last-child {
 
 .hero-section button {
     display: inline-flex;
-    padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 4px;
@@ -86,9 +107,39 @@ img {
     height: 388px;
 }
 
+/*Our Team*/
+.team-section {
+    background-color: var(--cloud);
+}
+
+.team-section h3, .team-section p {
+    text-align: center;
+}
+
 .footer-section {
     background-color: var(--navyblue);
 }
+
+.footer-section a.logo span:nth-child(2) {
+    color: var(--cloud);
+}
+
 .footer-section p {
     color: var(--cloud);
+}
+
+/*----------Portfolio Page----------*/
+
+.filter-section button {
+    color: var(--iris);
+    font-weight: bold;
+    letter-spacing: 0.64px;
+    border-radius: 4px;
+    border: none;
+    background: var(--cloud);
+}
+
+.filter-section .selected {
+    background-color: var(--iris);
+    color: var(--white);
 }
