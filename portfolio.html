@@ -17,87 +17,130 @@
 <body> 
     <header class="header">
         <nav>
-            <a href="/goit-markup-hw-02/" class="logo">
+            <a href="/goit-markup-hw-02/" class="nav-logo">
                 <span>Web</span><span>Studio</span>
             </a>
         
             <ul class="nav-list">
-                <li><a href="index.html" class="nav-list-item active">Studio</a></li>
-                <li><a href="portfolio.html" class="nav-list-item">Portfolio</a></li>
-                <li><a href="#" class="nav-list-item">Contacts</a></li>
+                <li class="nav-list-item">
+                    <a href="index.html" class="nav-item-link">
+                        Studio
+                    </a>
+                </li>
+                <li class="nav-list-item">
+                    <a href="portfolio.html" class="nav-item-link">
+                        Portfolio
+                    </a>
+                </li>
+                <li class="nav-list-item">
+                    <a href="#" class="nav-item-link">
+                        Contacts
+                    </a>
+                </li>
             </ul>
         </nav>
         <address>
             <ul class="address-list">
-                <li> <a href="mailto: info@devstudio.com" class="address-list-item">info@devstudio.com</a></li>
-                <li> <a href="tel: +11 (000) 111-11-11" class="address-list-item">+11 (000) 111-11-11</a></li>
+                <li class="address-list-item">
+                    <a href="mailto: info@devstudio.com" class="address-item-link">
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li class="address-list-item">
+                    <a href="tel: +11 (000) 111-11-11" class="address-item-link">
+                        +11 (000) 111-11-11
+                    </a>
+                </li>
             </ul>
         </address>
     </header>
     <main>
         <!--Filters-->
-        <section class="section-portfolio">
-            <ul class="portfolio-project-list">
-                <li class="portfolio-list-item"><button class="portfolio-item-button-type" type="button" class="selected">All</button></li>
-                <li class="portfolio-list-item"><button class="portfolio-item-button-type" type="button">Web Site</button></li>
-                <li class="portfolio-list-item"><button class="portfolio-item-button-type" type="button">App</button></li>
-                <li class="portfolio-list-item"><button class="portfolio-item-button-type" type="button">Design</button></li>
-                <li class="portfolio-list-item"><button class="portfolio-item-button-type" type="button">Marketng</button></li>
+        <section class="filter">
+            <ul class="filter-list">
+                <li class="filter-list-item">
+                    <button class="filter-item-button-type" type="button" class="selected">All</button>
+                </li>
+                <li class="filter-list-item">
+                    <button class="filter-item-button-type" type="button">Web Site</button>
+                </li>
+                <li class="filter-list-item">
+                    <button class="filter-item-button-type" type="button">App</button>
+                </li>
+                <li class="filter-list-item">
+                    <button class="filter-item-button-type" type="button">Design</button>
+                </li>
+                <li class="filter-list-item">
+                    <button class="filter-item-button-type" type="button">Marketng</button>
+                </li>
             </ul>
         </section>
         
        
-        <!--First Row-->
-        <section>
-            <ul>
-                <li><img src="images/img-card1.jpg" alt="First image"></li>
-                <h3>Banking App Interface Concept</h3>
-                <p>App</p>
+        <!--First Row-->
+        <section class="portfolio">
+            <ul class="portfolio-list">
+                <li class="portfolio-list-items">
+                    <img src="images/img-card1.jpg" alt="First image" width="360" class="portfolio-list-img">
+                </li>
+                <h3 class="portfolio-list-title">Banking App Interface Concept</h3>
+                <p class="portfolio-list-description">App</p>
 
-                <li><img src="images/img-card2.jpg" alt="Second image"></li>
-                <h3>Cashless Payment</h3>
-                <p>Marketing</p>
+                <li class="portfolio-list-items">
+                    <img src="images/img-card2.jpg" alt="Second image" width="360" class="portfolio-list-img">
+                </li>
+                <h3 class="portfolio-list-title">Cashless Payment</h3>
+                <p class="portfolio-list-description">Marketing</p>
 
-                <li><img src="images/img-card3.jpg" alt="Third image"></li>
-                <h3>Meditation App</h3>
-                <p>App</p>              
-            </ul>
+                <li class="portfolio-list-items">
+                    <img src="images/img-card3.jpg" alt="Third image" width="360" class="portfolio-list-img">
+                </li>
+                <h3 class="portfolio-list-title">Meditation App</h3>
+                <p class="portfolio-list-description">App</p>              
      
-        <!--Second Row-->
-            <ul>
-                <li><img src="images/img-card4.jpg" alt="Fourth image"></li>
-                <h3>Taxi Service</h3>
-                <p>Marketing</p>
+                <li class="portfolio-list-items">
+                    <img src="images/img-card4.jpg" alt="Fourth image" width="360" class="portfolio-list-img">
+                </li>
+                <h3 class="portfolio-list-title">Taxi Service</h3>
+                <p class="portfolio-list-description">Marketing</p>
 
-                <li><img src="images/img-card5.jpg" alt="Fifth image"></li>
-                <h3>Screen Illustrations</h3>
-                <p>Design</p>
+                <li class="portfolio-list-items">
+                    <img src="images/img-card5.jpg" alt="Fifth image" width="360" class="portfolio-list-img">
+                </li>
+                <h3 class="portfolio-list-title">Screen Illustrations</h3>
+                <p class="portfolio-list-description">Design</p>
 
-                <li><img src="images/img-card6.jpg" alt="Sixth image"></li>
-                <h3>Online Courses</h3>
-                <p>Marketing</p>
-            </ul>
+                <li class="portfolio-list-items">
+                    <img src="images/img-card6.jpg" alt="Sixth image" width="360" class="portfolio-list-img">
+                </li>
+                <h3 class="portfolio-list-title">Online Courses</h3>
+                <p class="portfolio-list-description">Marketing</p>
        
-        <!--Third Row-->
-            <ul>
-                <li><img src="images/img-card7.jpg" alt="Seventh image"></li>
-                <h3>Instagram Stories Concept</h3>
-                <p>Design</p>
+                <li class="portfolio-list-items">
+                    <img src="images/img-card7.jpg" alt="Seventh image" width="360" class="portfolio-list-img">
+                </li>
+                <h3 class="portfolio-list-title">Instagram Stories Concept</h3>
+                <p class="portfolio-list-description">Design</p>
 
-                <li><img src="images/img-card8.jpg" alt="Eighth image"></li>
-                <h3>Organic Food</h3>
-                <p>Web Site</p>
+                <li class="portfolio-list-items">
+                    <img src="images/img-card8.jpg" alt="Eighth image" width="360" class="portfolio-list-img">
+                </li>
+                <h3 class="portfolio-list-title">Organic Food</h3>
+                <p class="portfolio-list-description">Web Site</p>
                 
-                <li><img src="images/img-card9.jpg" alt="Nineth image"></li>
-                <h3>Fresh Coffee</h3>
-                <p>Web Site</p>  
+                <li class="portfolio-list-items">
+                    <img src="images/img-card9.jpg" alt="Nineth image" width="360" class="portfolio-list-img">
+                </li>
+                <h3 class="portfolio-list-title">Fresh Coffee</h3>
+                <p class="portfolio-list-description">Web Site</p>  
             </ul>
         </section>
     </main>
-    <footer class="footer-section">
-        <a href="/goit-markup-hw-01/" class="logo">
-            <span>WEB</span><span>STUDIO</span></a>
-        <P>
+    <footer class="footer">
+        <a href="/goit-markup-hw-01/" class="footer-logo">
+            <span>WEB</span><span>STUDIO</span>
+        </a>
+        <P class="footer-caption">
             Increase the flow of customers and <br> sales for your business with digital <br> marketing & growth solutions.
         </P>
     </footer>
