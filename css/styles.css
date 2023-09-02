@@ -47,10 +47,9 @@ button {
 }
 
 
-h1, h2 {
-    text-align: center;
+address {
+    font-style: normal;
 }
-
 
 /*----------Studio Page----------*/
 /*Navigation Tab*/
@@ -63,7 +62,6 @@ h1, h2 {
     font-family: var(--font-logo);
     font-size: 18px;
     font-weight: 800;
-    font-style: normal;
     text-transform: uppercase;
     letter-spacing: 0.54px;
     line-height: 21px;
@@ -89,15 +87,11 @@ h1, h2 {
 .address-list {
     color: var(--slate);
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px;
 }
 .address-item-link {
     color: var(--slate);
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
@@ -115,9 +109,8 @@ h1, h2 {
 
 .hero-title {
     font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
     letter-spacing: 1.12px;
+    text-align: center;
 }
 
 .hero-cta {
@@ -127,18 +120,20 @@ h1, h2 {
     color: var(--white);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
     padding: 16px 32px;
 }
 
+.hero-cta:hover {
+    background: var(--ocean);
+}
+
 /*Features Section*/
 
 .features-list-title {
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
@@ -148,8 +143,6 @@ h1, h2 {
 .features-list-description {
     color: var(--slate);
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
@@ -158,8 +151,6 @@ h1, h2 {
 .activities-title, .teams-title {
     text-align: center;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
@@ -171,7 +162,6 @@ h1, h2 {
 .teams-item-title {
     text-align: center;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
@@ -181,8 +171,6 @@ h1, h2 {
     color: var(--slate);
     text-align: center;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
@@ -196,7 +184,6 @@ h1, h2 {
     font-family: var(--font-logo);
     color: var(--iris);
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.54px;
@@ -211,8 +198,6 @@ h1, h2 {
     width: 264px;
     color: var(--cloud);
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
@@ -225,7 +210,6 @@ h1, h2 {
     background: var(--cloud);
     color: var(--iris);
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 20px;
     padding: 12px 24px;
@@ -241,7 +225,6 @@ h1, h2 {
 }
 .portfolio-list-title {
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
@@ -250,8 +233,6 @@ h1, h2 {
 .portfolio-list-description {
     color: var(--slate);
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
